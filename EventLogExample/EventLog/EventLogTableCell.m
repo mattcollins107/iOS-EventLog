@@ -7,7 +7,6 @@
 
 #import "EventLogTableCell.h"
 
-
 #define CELL_CONTENT_HEIGHT 44.0f
 #define CELL_CONTENT_WIDTH 318.0f
 #define CELL_CONTENT_MARGIN 5.0f

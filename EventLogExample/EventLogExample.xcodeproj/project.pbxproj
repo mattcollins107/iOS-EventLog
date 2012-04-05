@@ -7,54 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821753A3152CB70C00552194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 821753A2152CB70C00552194 /* main.m */; };
+		821753A6152CB73500552194 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 821753A4152CB73500552194 /* InfoPlist.strings */; };
 		8261D136152B418000229BE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261D135152B418000229BE6 /* UIKit.framework */; };
 		8261D138152B418000229BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261D137152B418000229BE6 /* Foundation.framework */; };
 		8261D13A152B418000229BE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261D139152B418000229BE6 /* CoreGraphics.framework */; };
-		8261D140152B418000229BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8261D13E152B418000229BE6 /* InfoPlist.strings */; };
-		8261D142152B418000229BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D141152B418000229BE6 /* main.m */; };
-		8261D146152B418000229BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D145152B418000229BE6 /* AppDelegate.m */; };
-		8261D149152B418000229BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D148152B418000229BE6 /* ViewController.m */; };
-		8261D14C152B418000229BE6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8261D14A152B418000229BE6 /* ViewController.xib */; };
-		8261D15D152B419300229BE6 /* EventLogConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D153152B419300229BE6 /* EventLogConfigurationViewController.m */; };
-		8261D15E152B419300229BE6 /* EventLogConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8261D154152B419300229BE6 /* EventLogConfigurationViewController.xib */; };
-		8261D15F152B419300229BE6 /* EventLogStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D157152B419300229BE6 /* EventLogStoreCoordinator.m */; };
-		8261D160152B419300229BE6 /* EventLogTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D159152B419300229BE6 /* EventLogTableCell.m */; };
-		8261D161152B419300229BE6 /* EventLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D15B152B419300229BE6 /* EventLogViewController.m */; };
-		8261D162152B419300229BE6 /* EventLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8261D15C152B419300229BE6 /* EventLogViewController.xib */; };
-		8261D165152B41E900229BE6 /* EventLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8261D163152B41E900229BE6 /* EventLog.xcdatamodeld */; };
-		8261D168152B420D00229BE6 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D167152B420D00229BE6 /* EventItem.m */; };
 		8261D16F152B489F00229BE6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261D16E152B489F00229BE6 /* CoreData.framework */; };
+		8261D19E152CAE7E00229BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D19B152CAE7E00229BE6 /* AppDelegate.m */; };
+		8261D19F152CAE7F00229BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261D19C152CAE7E00229BE6 /* ViewController.m */; };
+		8261D1A3152CAF7600229BE6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8261D1A1152CAF7500229BE6 /* ViewController.xib */; };
+		82AAC25D152DE6A600269082 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC24F152DE6A600269082 /* EventItem.m */; };
+		82AAC25E152DE6A600269082 /* EventLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC250152DE6A600269082 /* EventLog.xcdatamodeld */; };
+		82AAC25F152DE6A600269082 /* EventLogConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC253152DE6A600269082 /* EventLogConfigurationViewController.m */; };
+		82AAC260152DE6A600269082 /* EventLogConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AAC254152DE6A600269082 /* EventLogConfigurationViewController.xib */; };
+		82AAC261152DE6A600269082 /* EventLogStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC257152DE6A600269082 /* EventLogStoreCoordinator.m */; };
+		82AAC262152DE6A600269082 /* EventLogTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC259152DE6A600269082 /* EventLogTableCell.m */; };
+		82AAC263152DE6A600269082 /* EventLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AAC25B152DE6A600269082 /* EventLogViewController.m */; };
+		82AAC264152DE6A600269082 /* EventLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AAC25C152DE6A600269082 /* EventLogViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		821753A2152CB70C00552194 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		821753A5152CB73500552194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		8261D131152B418000229BE6 /* EventLogExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventLogExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8261D135152B418000229BE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8261D137152B418000229BE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8261D139152B418000229BE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8261D13D152B418000229BE6 /* EventLogExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventLogExample-Info.plist"; sourceTree = "<group>"; };
-		8261D13F152B418000229BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8261D141152B418000229BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8261D143152B418000229BE6 /* EventLogExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventLogExample-Prefix.pch"; sourceTree = "<group>"; };
-		8261D144152B418000229BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8261D145152B418000229BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8261D147152B418000229BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8261D148152B418000229BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8261D14B152B418000229BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		8261D152152B419300229BE6 /* EventLogConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLogConfigurationViewController.h; path = ../EventLogConfigurationViewController.h; sourceTree = "<group>"; };
-		8261D153152B419300229BE6 /* EventLogConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventLogConfigurationViewController.m; path = ../EventLogConfigurationViewController.m; sourceTree = "<group>"; };
-		8261D154152B419300229BE6 /* EventLogConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventLogConfigurationViewController.xib; path = ../EventLogConfigurationViewController.xib; sourceTree = "<group>"; };
-		8261D155152B419300229BE6 /* EventLogDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLogDefinitions.h; path = ../EventLogDefinitions.h; sourceTree = "<group>"; };
-		8261D156152B419300229BE6 /* EventLogStoreCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLogStoreCoordinator.h; path = ../EventLogStoreCoordinator.h; sourceTree = "<group>"; };
-		8261D157152B419300229BE6 /* EventLogStoreCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventLogStoreCoordinator.m; path = ../EventLogStoreCoordinator.m; sourceTree = "<group>"; };
-		8261D158152B419300229BE6 /* EventLogTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLogTableCell.h; path = ../EventLogTableCell.h; sourceTree = "<group>"; };
-		8261D159152B419300229BE6 /* EventLogTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventLogTableCell.m; path = ../EventLogTableCell.m; sourceTree = "<group>"; };
-		8261D15A152B419300229BE6 /* EventLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLogViewController.h; path = ../EventLogViewController.h; sourceTree = "<group>"; };
-		8261D15B152B419300229BE6 /* EventLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventLogViewController.m; path = ../EventLogViewController.m; sourceTree = "<group>"; };
-		8261D15C152B419300229BE6 /* EventLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventLogViewController.xib; path = ../EventLogViewController.xib; sourceTree = "<group>"; };
-		8261D164152B41E900229BE6 /* EventLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventLog.xcdatamodel; sourceTree = "<group>"; };
-		8261D166152B420D00229BE6 /* EventItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItem.h; sourceTree = "<group>"; };
-		8261D167152B420D00229BE6 /* EventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItem.m; sourceTree = "<group>"; };
 		8261D16E152B489F00229BE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8261D19A152CAE7E00229BE6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8261D19B152CAE7E00229BE6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8261D19C152CAE7E00229BE6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		8261D19D152CAE7E00229BE6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		8261D1A2152CAF7600229BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		82AAC24E152DE6A600269082 /* EventItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItem.h; sourceTree = "<group>"; };
+		82AAC24F152DE6A600269082 /* EventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItem.m; sourceTree = "<group>"; };
+		82AAC251152DE6A600269082 /* EventLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventLog.xcdatamodel; sourceTree = "<group>"; };
+		82AAC252152DE6A600269082 /* EventLogConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogConfigurationViewController.h; sourceTree = "<group>"; };
+		82AAC253152DE6A600269082 /* EventLogConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLogConfigurationViewController.m; sourceTree = "<group>"; };
+		82AAC254152DE6A600269082 /* EventLogConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventLogConfigurationViewController.xib; sourceTree = "<group>"; };
+		82AAC255152DE6A600269082 /* EventLogDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogDefinitions.h; sourceTree = "<group>"; };
+		82AAC256152DE6A600269082 /* EventLogStoreCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogStoreCoordinator.h; sourceTree = "<group>"; };
+		82AAC257152DE6A600269082 /* EventLogStoreCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLogStoreCoordinator.m; sourceTree = "<group>"; };
+		82AAC258152DE6A600269082 /* EventLogTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogTableCell.h; sourceTree = "<group>"; };
+		82AAC259152DE6A600269082 /* EventLogTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLogTableCell.m; sourceTree = "<group>"; };
+		82AAC25A152DE6A600269082 /* EventLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLogViewController.h; sourceTree = "<group>"; };
+		82AAC25B152DE6A600269082 /* EventLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLogViewController.m; sourceTree = "<group>"; };
+		82AAC25C152DE6A600269082 /* EventLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventLogViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,6 @@
 		8261D126152B418000229BE6 = {
 			isa = PBXGroup;
 			children = (
-				8261D16E152B489F00229BE6 /* CoreData.framework */,
 				8261D13B152B418000229BE6 /* EventLogExample */,
 				8261D134152B418000229BE6 /* Frameworks */,
 				8261D132152B418000229BE6 /* Products */,
@@ -93,6 +92,7 @@
 		8261D134152B418000229BE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8261D16E152B489F00229BE6 /* CoreData.framework */,
 				8261D135152B418000229BE6 /* UIKit.framework */,
 				8261D137152B418000229BE6 /* Foundation.framework */,
 				8261D139152B418000229BE6 /* CoreGraphics.framework */,
@@ -103,12 +103,12 @@
 		8261D13B152B418000229BE6 /* EventLogExample */ = {
 			isa = PBXGroup;
 			children = (
-				8261D16D152B428C00229BE6 /* Event Log */,
-				8261D144152B418000229BE6 /* AppDelegate.h */,
-				8261D145152B418000229BE6 /* AppDelegate.m */,
-				8261D147152B418000229BE6 /* ViewController.h */,
-				8261D148152B418000229BE6 /* ViewController.m */,
-				8261D14A152B418000229BE6 /* ViewController.xib */,
+				82AAC24D152DE6A600269082 /* EventLog */,
+				8261D19A152CAE7E00229BE6 /* AppDelegate.h */,
+				8261D19B152CAE7E00229BE6 /* AppDelegate.m */,
+				8261D19D152CAE7E00229BE6 /* ViewController.h */,
+				8261D19C152CAE7E00229BE6 /* ViewController.m */,
+				8261D1A1152CAF7500229BE6 /* ViewController.xib */,
 				8261D13C152B418000229BE6 /* Supporting Files */,
 			);
 			path = EventLogExample;
@@ -117,65 +117,57 @@
 		8261D13C152B418000229BE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				821753A2152CB70C00552194 /* main.m */,
+				821753A4152CB73500552194 /* InfoPlist.strings */,
 				8261D13D152B418000229BE6 /* EventLogExample-Info.plist */,
-				8261D13E152B418000229BE6 /* InfoPlist.strings */,
-				8261D141152B418000229BE6 /* main.m */,
 				8261D143152B418000229BE6 /* EventLogExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8261D169152B421100229BE6 /* Core Data */ = {
+		82AAC24D152DE6A600269082 /* EventLog */ = {
 			isa = PBXGroup;
 			children = (
-				8261D163152B41E900229BE6 /* EventLog.xcdatamodeld */,
-				8261D166152B420D00229BE6 /* EventItem.h */,
-				8261D167152B420D00229BE6 /* EventItem.m */,
-				8261D156152B419300229BE6 /* EventLogStoreCoordinator.h */,
-				8261D157152B419300229BE6 /* EventLogStoreCoordinator.m */,
+				82AAC255152DE6A600269082 /* EventLogDefinitions.h */,
+				82AAC266152DE6B900269082 /* CoreData */,
+				82AAC265152DE6B100269082 /* Configuration */,
+				82AAC267152DE6CA00269082 /* Log View Controller */,
 			);
-			name = "Core Data";
-			sourceTree = "<group>";
+			path = EventLog;
+			sourceTree = SOURCE_ROOT;
 		};
-		8261D16A152B422300229BE6 /* User Interface */ = {
+		82AAC265152DE6B100269082 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				8261D16B152B423500229BE6 /* Configuration */,
-				8261D16C152B424600229BE6 /* Event Log */,
-			);
-			name = "User Interface";
-			sourceTree = "<group>";
-		};
-		8261D16B152B423500229BE6 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				8261D152152B419300229BE6 /* EventLogConfigurationViewController.h */,
-				8261D153152B419300229BE6 /* EventLogConfigurationViewController.m */,
-				8261D154152B419300229BE6 /* EventLogConfigurationViewController.xib */,
+				82AAC252152DE6A600269082 /* EventLogConfigurationViewController.h */,
+				82AAC253152DE6A600269082 /* EventLogConfigurationViewController.m */,
+				82AAC254152DE6A600269082 /* EventLogConfigurationViewController.xib */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
 		};
-		8261D16C152B424600229BE6 /* Event Log */ = {
+		82AAC266152DE6B900269082 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8261D158152B419300229BE6 /* EventLogTableCell.h */,
-				8261D159152B419300229BE6 /* EventLogTableCell.m */,
-				8261D15A152B419300229BE6 /* EventLogViewController.h */,
-				8261D15B152B419300229BE6 /* EventLogViewController.m */,
-				8261D15C152B419300229BE6 /* EventLogViewController.xib */,
+				82AAC256152DE6A600269082 /* EventLogStoreCoordinator.h */,
+				82AAC257152DE6A600269082 /* EventLogStoreCoordinator.m */,
+				82AAC24E152DE6A600269082 /* EventItem.h */,
+				82AAC24F152DE6A600269082 /* EventItem.m */,
+				82AAC250152DE6A600269082 /* EventLog.xcdatamodeld */,
 			);
-			name = "Event Log";
+			name = CoreData;
 			sourceTree = "<group>";
 		};
-		8261D16D152B428C00229BE6 /* Event Log */ = {
+		82AAC267152DE6CA00269082 /* Log View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8261D155152B419300229BE6 /* EventLogDefinitions.h */,
-				8261D169152B421100229BE6 /* Core Data */,
-				8261D16A152B422300229BE6 /* User Interface */,
+				82AAC258152DE6A600269082 /* EventLogTableCell.h */,
+				82AAC259152DE6A600269082 /* EventLogTableCell.m */,
+				82AAC25A152DE6A600269082 /* EventLogViewController.h */,
+				82AAC25B152DE6A600269082 /* EventLogViewController.m */,
+				82AAC25C152DE6A600269082 /* EventLogViewController.xib */,
 			);
-			name = "Event Log";
+			name = "Log View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +196,7 @@
 		8261D128152B418000229BE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = NISC;
 			};
 			buildConfigurationList = 8261D12B152B418000229BE6 /* Build configuration list for PBXProject "EventLogExample" */;
@@ -229,10 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8261D140152B418000229BE6 /* InfoPlist.strings in Resources */,
-				8261D14C152B418000229BE6 /* ViewController.xib in Resources */,
-				8261D15E152B419300229BE6 /* EventLogConfigurationViewController.xib in Resources */,
-				8261D162152B419300229BE6 /* EventLogViewController.xib in Resources */,
+				8261D1A3152CAF7600229BE6 /* ViewController.xib in Resources */,
+				821753A6152CB73500552194 /* InfoPlist.strings in Resources */,
+				82AAC260152DE6A600269082 /* EventLogConfigurationViewController.xib in Resources */,
+				82AAC264152DE6A600269082 /* EventLogViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,33 +235,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8261D142152B418000229BE6 /* main.m in Sources */,
-				8261D146152B418000229BE6 /* AppDelegate.m in Sources */,
-				8261D149152B418000229BE6 /* ViewController.m in Sources */,
-				8261D15D152B419300229BE6 /* EventLogConfigurationViewController.m in Sources */,
-				8261D15F152B419300229BE6 /* EventLogStoreCoordinator.m in Sources */,
-				8261D160152B419300229BE6 /* EventLogTableCell.m in Sources */,
-				8261D161152B419300229BE6 /* EventLogViewController.m in Sources */,
-				8261D165152B41E900229BE6 /* EventLog.xcdatamodeld in Sources */,
-				8261D168152B420D00229BE6 /* EventItem.m in Sources */,
+				8261D19E152CAE7E00229BE6 /* AppDelegate.m in Sources */,
+				8261D19F152CAE7F00229BE6 /* ViewController.m in Sources */,
+				821753A3152CB70C00552194 /* main.m in Sources */,
+				82AAC25D152DE6A600269082 /* EventItem.m in Sources */,
+				82AAC25E152DE6A600269082 /* EventLog.xcdatamodeld in Sources */,
+				82AAC25F152DE6A600269082 /* EventLogConfigurationViewController.m in Sources */,
+				82AAC261152DE6A600269082 /* EventLogStoreCoordinator.m in Sources */,
+				82AAC262152DE6A600269082 /* EventLogTableCell.m in Sources */,
+				82AAC263152DE6A600269082 /* EventLogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8261D13E152B418000229BE6 /* InfoPlist.strings */ = {
+		821753A4152CB73500552194 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8261D13F152B418000229BE6 /* en */,
+				821753A5152CB73500552194 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8261D14A152B418000229BE6 /* ViewController.xib */ = {
+		8261D1A1152CAF7500229BE6 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8261D14B152B418000229BE6 /* en */,
+				8261D1A2152CAF7600229BE6 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -284,20 +276,27 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				FRAMEWORK_SEARCH_PATHS = "$SRCROOT/**";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "EventLogExample-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$SRCROOT/**";
+				INFOPLIST_FILE = "EventLogExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$SRCROOT/**";
+				PRODUCT_NAME = EventLogExample;
 				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -308,15 +307,22 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				FRAMEWORK_SEARCH_PATHS = "$SRCROOT/**";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREFIX_HEADER = "EventLogExample-Prefix.pch";
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$SRCROOT/**";
+				INFOPLIST_FILE = "EventLogExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$SRCROOT/**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = EventLogExample;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -324,8 +330,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EventLogExample/EventLogExample-Prefix.pch";
-				INFOPLIST_FILE = "EventLogExample/EventLogExample-Info.plist";
+				GCC_PREFIX_HEADER = "EventLogExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = $inherited;
+				INFOPLIST_FILE = "EventLogExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = $inherited;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,8 +343,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EventLogExample/EventLogExample-Prefix.pch";
-				INFOPLIST_FILE = "EventLogExample/EventLogExample-Info.plist";
+				GCC_PREFIX_HEADER = "EventLogExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = $inherited;
+				INFOPLIST_FILE = "EventLogExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = $inherited;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -361,16 +371,17 @@
 				8261D151152B418000229BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8261D163152B41E900229BE6 /* EventLog.xcdatamodeld */ = {
+		82AAC250152DE6A600269082 /* EventLog.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8261D164152B41E900229BE6 /* EventLog.xcdatamodel */,
+				82AAC251152DE6A600269082 /* EventLog.xcdatamodel */,
 			);
-			currentVersion = 8261D164152B41E900229BE6 /* EventLog.xcdatamodel */;
+			currentVersion = 82AAC251152DE6A600269082 /* EventLog.xcdatamodel */;
 			path = EventLog.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
